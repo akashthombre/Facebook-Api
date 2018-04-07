@@ -1,0 +1,53 @@
+.loader {
+  border-top: 16px solid purple;
+  border-right: 16px solid red;
+  border-bottom: 16px solid yellow;
+  border-left: 16px solid blue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  text-align: center;
+  margin: auto;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.search1 {
+  padding: 0;
+}
+
+.nav1 {
+  background-color: #3B5998;
+}
+
+#go {
+  width: 100%;
+  margin-left: 0;
+}
+
+.post-message {
+  text-transform: uppercase;
+  color: green;
+}
+
+.posts-content {
+  background-color: white;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-weight: 1.8em;
+}
+
+#button1 {
+  width: 100%;
+}
+
+#profile_pic {
+  width: 100%;
+}
+
+.post-message {
+  color: blue;
+}

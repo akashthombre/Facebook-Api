@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FB | API</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Custom style CSS -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body class="bg-info">
+
+
+    <nav class="navbar navbar-inverse nav1">
+      <div class="container bg-default">
+        <div class="navbar-header navbar-primary">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">FACEBOOK</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-primary nav1">
+          <ul class="nav navbar-nav navbar-right">
+           <a class="navbar-brand"  href="index.html">HOME</a>
+           <a class="navbar-brand" href="feed/feed.html">FEED</a>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="loader"></div>
+
+
+    <div class="container search">
+      <div class="row search">
+        <div class="col-md-10 col-sm-12 col-xs-12" >
+           <form>
+            <div class="form-group">
+
+              <input type="text" class="form-control" id="usr" placeholder="Enter your token here...">
+            </div>
+          </form>
+            </div>
+            <div class="col-md-2 col-sm-12 col-xs-12">
+              <button type="button" id="go" class="btn btn-info ">GO</button>
+            </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container showcase">
+      <div class="row">
+        <div class="col-md-12" style="margin-top: 30px;">
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title ">Profile </h3>
+              </div>
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <img src="Profile.jpg" id="profile_pic" class="img-responsive img-thumbnail">
+                  <a class="btn btn-warning" target="_blank" id="button1">View Profile</a>
+
+
+                </div>
+                <div class="col-md-9">
+                  <ul class="list-group">
+                  	 <li class="list-group-item" id="id1">Id:</li>
+                    <li class="list-group-item" id="firstName">First-Name:</li>
+                    <li class="list-group-item" id="lastName">Last-Name:</li>
+
+                    <li class="list-group-item" id="relationship_status">Relation-ship:</li>
+                    <li class="list-group-item" id="birthday">Birth-Date:</li>
+                    <li class="list-group-item" id="email">Email:</li>
+                    <li class="list-group-item" id="hometown">Home-Town:</li>
+
+                  </ul>
+
+
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="css/bootstrap.min.js"></script>
+          <script type="text/javascript" src="js/app.js"></script>
+
+
+        </body>
+      </html>
